@@ -21,7 +21,7 @@ GEM
       debug_inspector (>= 0.0.1)
     coderay (1.1.2)
     concurrent-ruby (1.1.6)
-    dalli (2.7.10)
+    dalli (3.2.3)
     debug_inspector (0.0.3)
     dotenv (2.7.5)
     erubi (1.9.0)
@@ -88,7 +88,7 @@ PLATFORMS
 DEPENDENCIES
   better_errors
   binding_of_caller
-  dalli (~> 2.7, >= 2.7.10)
+  dalli (~> 3.2)
   dotenv
   haml (~> 5.0, >= 5.1.2)
   httparty (~> 0.18.0)
